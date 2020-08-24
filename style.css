@@ -1,0 +1,137 @@
+star{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+    border-top:0;
+    box-sizing:  border-box;
+
+
+}
+
+body{
+    background-color: white;
+    font-family: 'Monteserrat',sans-serif;
+    color: black;
+}
+
+.top{
+    
+    font-size: 20px;
+    height: 600px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-image: linear-gradient(white,grey);
+
+}
+span{
+    color: teal;
+}
+.middle{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    background-image: linear-gradient(white,black);
+
+
+}
+nav{
+    
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    padding: 0px;
+    position:fixed;
+}
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: thistle;
+    text-transform: uppercase;
+}
+.bottom{
+    
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color:teal;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+.bottom a{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(194, 223, 235);
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    line-height: 110px;
+    box-shadow: 1px 4px 2px 2px rgb(134, 125, 125);
+    transition: all 0.2s linear;
+}
+
+
+a i{
+    transition: all 0.2s linear;
+}
+a:hover i{
+ transform: scale(1.4);
+}
+.fa-instagram{
+    color: #0097e6;
+}
+.fa-facebook{
+    color: #0097e6;
+}
+.fa-linkedin{
+    color:  #0097e6;
+}
+.fa-twitter{
+    color:  #0097e6;
+}
+.qual{
+    background-color: teal;
+    width: 220px;
+    height: 50px;
+    padding: 5px;
+    border: solid white;
+    box-shadow: 1px 4px 2px 2px rgb(134, 125, 125); 
+}
+.topp{
+    font-family: 'Sacramento', cursive;
+    color: teal;    
+}
+
+
+
+
+
+
+
