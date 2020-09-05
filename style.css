@@ -1,12 +1,6 @@
-star{
+*{
     padding: 0;
     margin: 0;
-    text-decoration: none;
-    list-style:none;
-    border-top:0;
-    box-sizing:  border-box;
-
-
 }
 
 body{
@@ -14,63 +8,66 @@ body{
     font-family: 'Monteserrat',sans-serif;
     color: black;
 }
-
-.top{
-    
-    font-size: 20px;
-    height: 600px;
-    font-family: 'Montserrat', sans-serif;
-    width: 100%;
-    background-image: linear-gradient(white,grey);
-
+.star{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
 }
-span{
-    color: teal;
+.star a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(19, 109, 121);
+}
+.abcd{
+    padding-top:200px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.container{
+    background-image: linear-gradient(white,grey) ;
+
+    background-position: top-centre;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.left{
+   font-size: 30px;
+   font-weight: solid;
+   font-style: italic;
 }
 .middle{
     font-family: 'Luckiest Guy', cursive;
     font-size: 25px;
     margin: 10px 20px 10px 20px;
     padding: 10px 20px 10px 20px;
-    background-image: linear-gradient(white,black);
-
-
-}
-nav{
-    
-    background: #0082e6;
-    height: 80px;
-    width: 100%;
-    padding: 0px;
-    position:fixed;
-}
-label.logo{
-    color: white;
-    font-size: 30px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-}
-nav ul{
-    float: right;
-    margin-right: 20px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 15px;
 
 }
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a{
-    color: thistle;
-    text-transform: uppercase;
+.red{
+    background-image: linear-gradient(rgb(163, 163, 163),rgb(23, 80, 45));
+    display: flex;
+    margin: 20px;
 }
 .bottom{
     
-    height: 30rem;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     
 }
 .footer {
@@ -123,10 +120,6 @@ a:hover i{
     padding: 5px;
     border: solid white;
     box-shadow: 1px 4px 2px 2px rgb(134, 125, 125); 
-}
-.topp{
-    font-family: 'Sacramento', cursive;
-    color: teal;    
 }
 
 
