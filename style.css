@@ -16,12 +16,16 @@ body{
     align-items: center;
     align-content: center;
 }
-.star a{
-    color: white;
+.star a{ 
+    color: rgb(19, 109, 121);
     text-decoration: none;
+    border-radius:20px;
+    padding:5px 4px;
 }
 a:hover{
-    color: rgb(19, 109, 121);
+    color: white;
+    background-color: rgb(19, 109, 121);
+    
 }
 .abcd{
     padding-top:200px;
@@ -68,7 +72,6 @@ a:hover{
     justify-content: center;
     align-items: center;
     width: 100%;
-    
 }
 .footer {
     position: relative;
@@ -92,6 +95,7 @@ a:hover{
     line-height: 110px;
     box-shadow: 1px 4px 2px 2px rgb(134, 125, 125);
     transition: all 0.2s linear;
+   
 }
 
 
@@ -100,6 +104,7 @@ a i{
 }
 a:hover i{
  transform: scale(1.4);
+ transform:translateY(-10px);
 }
 .fa-instagram{
     color: #0097e6;
